@@ -1,0 +1,71 @@
+/* Custom styles for Class Survey */
+body {
+    background-color: #12249d;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;  /* Limit the overall width of the content */
+}
+
+.field {
+    margin-bottom: 1.5rem;
+}
+
+.select {
+    width: 100%;
+    max-width: 300px;  /* Limit the width of the select box */
+}
+
+.select select {
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #12249d;
+}
+
+.label {
+    color: white;
+}
+
+.button[type="submit"] {
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    border-color: transparent;
+    color: white;
+}
+
+.button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.results-container {
+    margin-top: 2rem;
+}
+
+.result-line {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Override Bulma's title color */
+.title, .subtitle {
+    color: white;
+}
+
+/* Style for the option elements inside select */
+.select select option {
+    background-color: white;
+    color: black;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .select {
+        max-width: 100%;  /* Allow full width on small screens */
+    }
+}
