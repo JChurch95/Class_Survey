@@ -1,5 +1,5 @@
 // Arrays
-const topics = ['HTML', 'CSS', 'JavaScript'];
+const topics = ['HTML', 'CSS', 'JAVASCRIPT'];
 const rankings = [
     { name: 'Awesome', value: 5 },
     { name: 'Great', value: 4 },
